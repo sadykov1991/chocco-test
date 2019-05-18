@@ -1,0 +1,426 @@
+html,
+body {
+  width: 100%;
+  height: 100%;
+}
+
+li {
+  list-style: none;
+}
+
+.section__intro {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background: #61c4d9;
+  width: 100vw;
+  height: 649px;
+}
+
+.content__wrapper {
+  position: absolute;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.container {
+  width: 1100px;
+  height: 100%;
+}
+
+.container--intro {
+  background: url("/img/content/fon .jpg") no-repeat;
+}
+
+.Candybars {
+  position: relative;
+  left: 580px;
+  top: -55px;
+}
+
+.berry {
+  position: relative;
+  bottom: -90px;
+  left: 80px;
+}
+
+.leaves {
+  position: relative;
+  bottom: 300px;
+  left: 40px;
+}
+
+.images {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.logo__header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 23px 80px;
+}
+
+.title__about {
+  font-family: 'AlegreyaSans-Regular.woff2';
+  padding-right: 30px;
+  color: white;
+  font-size: 19px;
+  text-decoration: none;
+}
+
+.title__contacts--phone {
+  font-family: 'Museo Sans Cyrl 500';
+  font-size: 20px;
+  text-decoration: none;
+}
+
+.text__chocco {
+  font-family: 'Museo Sans Cyrl 500';
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-size: 25px;
+  color: white;
+}
+
+.content__text {
+  padding: 0 80px;
+}
+
+.title__big {
+  margin-top: 50px;
+  text-transform: uppercase;
+  color: white;
+  width: 390px;
+  height: 166px;
+  font-size: 50px;
+  font-family: 'AlegreyaSans-Bold.woff2';
+}
+
+.title__small {
+  margin-top: 25px;
+  width: 380px;
+  height: 51px;
+  font-size: 20px;
+  color: white;
+  font-family: 'AlegreyaSans-Regular.woff2';
+}
+
+.contacts__phone {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.title__contacts--phone {
+  color: white;
+}
+
+.btn {
+  left: 80px;
+  text-decoration: none;
+  z-index: 10;
+  position: relative;
+  display: block;
+  background-color: white;
+  width: 156px;
+  height: 59px;
+  border-radius: 30px;
+  border: 0px;
+  text-transform: uppercase;
+}
+
+.btn :hover {
+  color: #0f5a47;
+}
+
+.button {
+  position: absolute;
+  top: 18px;
+  left: 25px;
+  font-size: 22px;
+  font-family: 'AlegreyaSans-ExtraBold.woff2';
+  color: #000000;
+}
+
+.icon {
+  padding-left: 40px;
+  padding-top: 30px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.icon__container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.icon__text {
+  font-family: 'AlegreyaSans-Regular.woff2';
+  color: white;
+  padding-left: 9px;
+  width: 92px;
+  height: 57px;
+}
+
+.icon__icons-sewing {
+  width: 42px;
+  height: 45px;
+  font-size: 3px;
+  color: #61c4d9;
+}
+
+/*--------------------------------features--------------------------------------------------------*/
+.features {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 100vw;
+  height: 649px;
+}
+
+.features__container {
+  position: relative;
+  width: 1100px;
+  min-height: 648px;
+}
+
+.features__title--features {
+  font-family: 'AlegreyaSans-Bold.woff2';
+  padding-top: 103px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-size: 50px;
+  text-transform: uppercase;
+}
+
+.features__text {
+  font-family: 'AlegreyaSans-Regular.woff2';
+  text-align: center;
+  font-size: 20px;
+  margin-bottom: 27px;
+  margin-left: 295px;
+  margin-right: 295px;
+}
+
+.features__icon {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.icon__item {
+  font-size: 17px;
+  font-family: 'AlegreyaSans-Light.woff2';
+  text-align: center;
+  width: 286px;
+  height: 63px;
+}
+
+.features__icon--img {
+  margin-left: 75px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 124px;
+  height: 124px;
+  background-color: #f2f5f4;
+  border-radius: 50%;
+}
+
+.icon__img--content {
+  width: 72px;
+  height: 70px;
+}
+
+.icon__headline {
+  font-family: 'AlegreyaSans-Bold.woff2';
+}
+
+.icon__content {
+  text-align: center;
+  width: 272px;
+  height: 262px;
+}
+
+.raspberries__img {
+  position: absolute;
+  overflow: auto;
+  top: 70%;
+}
+
+.leaves__img {
+  position: absolute;
+  overflow: auto;
+  top: 25%;
+  left: 2px;
+}
+
+/*-------------------------------------------reviews -----------------------------------------*/
+.reviews {
+  width: 100vw;
+  height: 649px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.container__reviews {
+  position: relative;
+  width: 1100px;
+  height: 648px;
+}
+
+.headline__reviews {
+  font-family: 'AlegreyaSans-Bold.woff2';
+  text-align: center;
+  margin-top: 80px;
+  text-transform: uppercase;
+  font-size: 40px;
+}
+
+.text__item {
+  font-family: 'AlegreyaSans-Medium.woff2';
+}
+
+.reviews__family {
+  font-family: 'AlegreyaSans-Medium.woff2';
+}
+
+.reviews__content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 50px;
+}
+
+.img__reviews {
+  background-image: url("/img/content/photo-14.jpg");
+  width: 254px;
+  height: 259px;
+  background-size: cover;
+  background-position: 50% 50%;
+}
+
+.reviews__title {
+  padding-left: 20px;
+}
+
+.title__item {
+  font-family: 'AlegreyaSans-Regular.woff2';
+  width: 480px;
+  height: 104px;
+}
+
+.photo__conteiner {
+  display: block;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.img__photo--img {
+  position: relative;
+  border-radius: 50%;
+  width: 90px;
+  height: 90px;
+  margin: 20px 30px;
+  overflow: hidden;
+  border: 5px solid transparent;
+}
+
+.img__photo--img:hover {
+  border: 5px solid #0f5a47;
+}
+
+.img__photo--active {
+  border: 5px solid #0f5a47;
+}
+
+.img__photo {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+
+.raspberries {
+  background: cover;
+  position: absolute;
+  overflow: auto;
+  top: 85%;
+}
+
+.berry__img {
+  background: cover;
+  position: absolute;
+  overflow: auto;
+  top: 2%;
+  left: 80%;
+}
+/*# sourceMappingURL=main.css.map */
